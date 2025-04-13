@@ -1,0 +1,18 @@
+.env
+__pycache__
+
+venv/
+# For the symlink that we use for developing locally.
+workflow
+
+
+# For the frontend
+node_modules
+dist
+
+# Compiling standalone python binaries
+scrape_availability.spec
+
+
+# Ignore scratch files.
+scratch.*
