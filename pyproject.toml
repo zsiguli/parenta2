@@ -1,0 +1,12 @@
+[project]
+name = "parenta2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-anthropic>=0.3.10",
+    "langgraph>=0.3.29",
+    "langsmith>=0.3.30",
+    "selenium>=4.31.0",
+]
